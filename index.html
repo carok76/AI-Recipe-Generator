@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="src/style.css" />
+        <title>AI Recipe Generator</title>
+    </head>
+    <body>
+        <div class = "container">
+            <main>
+                <header>
+                    <h1>Welcome To My AI Recipe Generator</h1>
+                </header>
+                <form id="recipe-generator-form">
+                    <input 
+                        type="text" 
+                        class="prompt-input"
+                        id="prompt-input"
+                        placeholder="Enter the topic or ingrediens of a recipe."
+                        autofocus
+                        required
+                        autocomplete="off" 
+                    />
+                    <input type="submit" class="submit-button" id="submit-button" />
+                </form>
+                <p class="hint" id="hint">i.e. italian cuisine, french cuisine, tomatoes, ...</p>
+                <div class="recipe hidden" id="recipe">
+                </div>
+            </main>
+        <script src="src/index.js"></script>
+    </body>
+    <footer>
+        <p>This AI project was coded by
+            <a href="https://www.linkedin.com/in/carolin-krahmer-94661399/" target="_blank">Carolin Krahmer</a> and is on 
+            <a href="" target="_blank">GitHub</a> and hosted on 
+            <a href="" target="_blank">Netlify</a>.
+            Picture by <a href="https://unsplash.com/de/@toddquackenbush?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Todd Quackenbush</a> on <a href="https://unsplash.com/de/fotos/schwarzer-morser-und-stossel-neben-brauner-kiste-in-der-draufsicht-x5SRhkFajrA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </p>
+    </footer>
+</div>

@@ -1,0 +1,101 @@
+body {
+    background-image: url("todd-quackenbush-x5SRhkFajrA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Nunito, sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.5;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;
+}
+
+.prompt-input {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width:75%;
+    font-size: 16px;
+    border-style: solid;
+    border-color: #465e12;
+}
+
+.submit-button {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #465e12;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1;
+    opacity: 1;
+}
+
+.hint {
+    padding: 0 30px 30px 35px;
+    color: grey;
+}
+
+.recipe {
+    font-size: 16px;
+    line-height: 2;
+    padding: 30px;
+    margin-left: 30px;
+    border-left: 3px solid #465e12;
+    min-height: 166px;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: darkgrey;
+}
+
+p {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    color: rgba(39, 33, 66, 0.4);
+  }
