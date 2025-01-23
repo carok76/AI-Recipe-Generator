@@ -7,7 +7,7 @@ function generateRecipe(event) {
     recipeContainer.innerHTML = `<p>Generating your recipe about ${promptInput.value}...</p>`;
 
     let apiKey = "o922906b22974ec99e9bc3858a42ft20";
-    let context = "You are a creative cook with a love for good food. The recipe must be provided in basic HTML format. Example: <p>this is a recipe</p>. Don't add a <br /> after the last line. Make sure to follow the user instructions."
+    let context = "You are a creative cook with a love for good food and tasty recipes. The recipe must be provided in basic HTML format. Example: <p>this is a recipe</p>. Don't add a <br /> after the last line. Make sure to follow the user instructions."
     let prompt = `User instructions are: Generate a recipe about ${promptInput.value}.`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
